@@ -142,9 +142,12 @@
                         <tr>
                             
                             <tr><td><textarea name="textbox" rows="10" cols="30">
-                                <?php 
-                                echo $_POST["text"].$_POST["textbox"].$_POST["country"].$_POST["division"];
-                                ?></textarea></td></tr>
+                                    <?php 
+                                    echo $_POST["textbox"].$_POST["text"].$_POST["country"].$_POST["City"];
+                                    ?>
+                                </textarea></td>
+                                
+                            </tr>
                             
                             
 
